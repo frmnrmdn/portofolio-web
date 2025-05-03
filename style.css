@@ -1,0 +1,54 @@
+body {
+    background-color: #f0efea;
+}
+
+.jumbotron {
+    padding-top: 6rem;
+}
+
+#certificate {
+    background-color: #86B6F6;
+    scroll-margin-top: 100px;
+}
+
+footer {
+    background-color: #1679AB;
+    color: #f0efea;
+}
+
+#project {
+    background-color: #86B6F6;
+}
+
+a {
+    color: #f0efea;
+    text-decoration: none;
+}
+
+i {
+    color: #d65d40;
+}
+
+section {
+    padding-top: 5rem;
+}
+
+.col-md-4 {
+    font-family: 'times new roman';
+    text-align: justify;
+}
+
+.text-p {
+    text-align: justify;
+}
+
+.card {
+    background: white;
+    border-radius: 8px;
+    padding: 16px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
