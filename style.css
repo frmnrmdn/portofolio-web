@@ -80,8 +80,7 @@ section {
     }
 
     .bottom-wave {
-        bottom: 0;
-        left: 0;
+        margin-top: -10px; 
     }
     
     .row {
