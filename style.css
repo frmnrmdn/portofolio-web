@@ -55,6 +55,23 @@ section {
 }
 
 @media screen and (max-width: 768px) {
+    .jumbotron {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .jumbotron img {
+        width: 150px;
+    }
+
+    .jumbotron h1 {
+        font-size: 1.5rem;
+    }
+
+    .jumbotron p {
+        font-size: 1rem;
+    }
+
     .hero-section {
         height: 100vh;
         position: relative;
@@ -67,7 +84,7 @@ section {
         bottom: 0;
         left: 0;
     }
-
+    
     .row {
         padding: 0 20px;
     }
