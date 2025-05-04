@@ -4,7 +4,8 @@ body {
 
 .jumbotron {
     padding-top: 6rem;
-}  
+}
+
 
 #certificate {
     background-color: #86B6F6;
@@ -51,4 +52,23 @@ section {
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .hero-section {
+        height: 100vh;
+        position: relative;
+        overflow: hidden;
+        padding-top: 150px;
+    }
+
+    .bottom-wave {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    .row {
+        padding: 0 20px;
+    }
 }
