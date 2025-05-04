@@ -80,7 +80,6 @@ section {
     }
 
     .bottom-wave {
-        position: absolute;
         bottom: 0;
         left: 0;
     }
