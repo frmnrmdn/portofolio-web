@@ -4,7 +4,35 @@ body {
 
 .jumbotron {
     padding-top: 6rem;
+} 
+
+.hero-section {
+  height: 100vh; /* memenuhi layar penuh */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* vertikal tengah */
+  align-items: center;     /* horizontal tengah */
+  background-color: #f8f9fa; /* sesuaikan dengan background jumbotron kamu */
+  position: relative;
+  margin: 0;
+  padding: 0;
 }
+
+.hero-section img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 0;
+} 
 
 #certificate {
     background-color: #86B6F6;
