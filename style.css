@@ -56,7 +56,7 @@ section {
 
 @media screen and (max-width: 768px) {
     .jumbotron {
-        padding-top: 20px;
+        padding-top: 100px;
         padding-bottom: 20px;
     }
 
@@ -73,18 +73,10 @@ section {
     }
 
     .hero-section {
-        height: 100vh;
-        position: relative;
         overflow: hidden;
-        padding-top: 150px;
+        padding-top: 200px;
     }
 
-    .bottom-wave {
-        display: block;
-        width: 100%;
-        margin-top: 30vh;
-    }
-    
     .row {
         padding: 0 20px;
     }
