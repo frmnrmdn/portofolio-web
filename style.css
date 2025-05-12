@@ -55,17 +55,8 @@ section {
 }
 
 @media screen and (max-width: 768px) {
-    .jumbotron {
-        padding-top: 100px;
-        padding-bottom: 20px;
-    }
-
-    .jumbotron img {
-        width: 150px;
-    }
-
     .jumbotron h1 {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     .jumbotron p {
