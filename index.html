@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <!-- Bs Css -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- My Css -->
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="svg" href="img/balloon-heart-fill.svg">
@@ -66,39 +68,39 @@
     <!-- Head -->
 
     <!-- Profile -->
-    <section id="profile">
+    <section id="profile" data-aos="fade-up">
         <div class="container">
-            <div class="row text-center mb-4">
+            <div class="row text-center mb-4" data-aos="fade-down" data-aos-duration="800">
                 <div class="col">
                     <h2>Profile</h2>
                 </div>
             </div>
-            <div class="row justify-content-center fs-5">
+            <div class="row justify-content-center fs-5" data-aos="fade-up" data-aos-delay="100">
                 <div class="col">
                     <p class="text-p">Saya lulusan Teknik Komputer dan Jaringan dari Sekolah Menengah Kejuruan Taruna
-                        Bhakti Depok
-                        dengan pengalaman melakukan
-                        instalasi perangkat keras dan lunak, pengetesan jaringan internet, serta memiliki ketertarikan
-                        dalam bidang teknik
-                        komputer dan informatika, khususnya dalam analisis data. Selain itu, saya juga memiliki
-                        pengalaman sebagai auditor aset,
-                        termasuk melakukan pemeriksaan, pencatatan, dan verifikasi aset.</p>
+                    Bhakti Depok
+                    dengan pengalaman melakukan
+                    instalasi perangkat keras dan lunak, pengetesan jaringan internet, serta memiliki ketertarikan
+                    dalam bidang teknik
+                    komputer dan informatika, khususnya dalam analisis data. Selain itu, saya juga memiliki
+                    pengalaman sebagai auditor aset,
+                    termasuk melakukan pemeriksaan, pencatatan, dan verifikasi aset.</p>
                 </div>
             </div>
-            <div class="row justify-content-center fs-5">
+            <div class="row justify-content-center fs-5" data-aos="fade-up" data-aos-delay="200">
                 <div class="col">
                     <p class="text-p">Di tengah kesibukan bekerja, saya juga menjalani pendidikan di Universitas
-                        Pamulang dan saat ini
-                        sedang menempuh
-                        semester 4. Saya terus berusaha mengembangkan keterampilan dengan mempelajari serta memperdalam
-                        bahasa pemrograman
-                        Python, khususnya dalam pengolahan dan analisis data. Saya meyakini bahwa pemahaman yang baik
-                        dalam bidang ini dapat
-                        membuka lebih banyak peluang serta mendukung pengambilan keputusan yang lebih efektif.</p>
+                    Pamulang dan saat ini
+                    sedang menempuh
+                    semester 4. Saya terus berusaha mengembangkan keterampilan dengan mempelajari serta memperdalam
+                    bahasa pemrograman
+                    Python, khususnya dalam pengolahan dan analisis data. Saya meyakini bahwa pemahaman yang baik
+                    dalam bidang ini dapat
+                    membuka lebih banyak peluang serta mendukung pengambilan keputusan yang lebih efektif.</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path fill="#86B6F6" fill-opacity="1"
@@ -351,6 +353,11 @@
             opacity: 0
         });
     </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
 </body>
 
 </html>
