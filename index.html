@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- My Css -->
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="svg" href="img/balloon-heart-fill.svg">
+    <link rel="icon" type="svg" href="/img/balloon-heart-fill.svg">
 </head>
 
 <body>
@@ -22,6 +22,9 @@
         <div class="container">
             <a class="navbar-brand text-capitalize fw-medium" style="color: #074173" href="#">firman ramadhan
                 saputra</a>
+            <button id="toggle-mode" class="btn ms-3">
+                <i class="bi bi-moon-stars-fill" id="mode-icon"></i>
+            </button>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -56,7 +59,7 @@
     <!-- Content -->
     <!-- Head -->
     <section class="jumbotron text-center hero-section">
-        <img src="img/Profile_Web.png" class="rounded-circle img-thumbnail" alt="profile-pict" width="200">
+        <img src="/img/Profile_Web.png" class="rounded-circle img-thumbnail" alt="profile-pict" width="200">
         <h1 class="display-4 text-capitalize fw-bold" style="color: #074173;">firman ramadhan saputra</h1>
         <p class="lead text-capitalize fw-medium" style="color: #1679AB;">student | technician</p>
     </section>
@@ -78,32 +81,33 @@
             <div class="row justify-content-center fs-5" data-aos="fade-up" data-aos-delay="100">
                 <div class="col">
                     <p class="text-p">Saya lulusan Teknik Komputer dan Jaringan dari Sekolah Menengah Kejuruan Taruna
-                    Bhakti Depok
-                    dengan pengalaman melakukan
-                    instalasi perangkat keras dan lunak, pengetesan jaringan internet, serta memiliki ketertarikan
-                    dalam bidang teknik
-                    komputer dan informatika, khususnya dalam analisis data. Selain itu, saya juga memiliki
-                    pengalaman sebagai auditor aset,
-                    termasuk melakukan pemeriksaan, pencatatan, dan verifikasi aset.</p>
+                        Bhakti Depok
+                        dengan pengalaman melakukan
+                        instalasi perangkat keras dan lunak, pengetesan jaringan internet, serta memiliki ketertarikan
+                        dalam bidang teknik
+                        komputer dan informatika, khususnya dalam analisis data. Selain itu, saya juga memiliki
+                        pengalaman sebagai auditor aset,
+                        termasuk melakukan pemeriksaan, pencatatan, dan verifikasi aset.</p>
                 </div>
             </div>
             <div class="row justify-content-center fs-5" data-aos="fade-up" data-aos-delay="200">
                 <div class="col">
                     <p class="text-p">Di tengah kesibukan bekerja, saya juga menjalani pendidikan di Universitas
-                    Pamulang dan saat ini
-                    sedang menempuh
-                    semester 4. Saya terus berusaha mengembangkan keterampilan dengan mempelajari serta memperdalam
-                    bahasa pemrograman
-                    Python, khususnya dalam pengolahan dan analisis data. Saya meyakini bahwa pemahaman yang baik
-                    dalam bidang ini dapat
-                    membuka lebih banyak peluang serta mendukung pengambilan keputusan yang lebih efektif.</p>
-                    </div>
+                        Pamulang dan saat ini
+                        sedang menempuh
+                        semester 4. Saya terus berusaha mengembangkan keterampilan dengan mempelajari serta memperdalam
+                        bahasa pemrograman
+                        Python, khususnya dalam pengolahan dan analisis data. Saya meyakini bahwa pemahaman yang baik
+                        dalam bidang ini dapat
+                        membuka lebih banyak peluang serta mendukung pengambilan keputusan yang lebih efektif.</p>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
+
 
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="#86B6F6" fill-opacity="1"
+        <path fill="#86B6F6" fill-opacity="1" id="wave-content"
             d="M0,256L34.3,261.3C68.6,267,137,277,206,245.3C274.3,213,343,139,411,117.3C480,96,549,128,617,160C685.7,192,754,224,823,213.3C891.4,203,960,149,1029,128C1097.1,107,1166,117,1234,149.3C1302.9,181,1371,235,1406,261.3L1440,288L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z">
         </path>
     </svg>
@@ -113,14 +117,14 @@
     <section id="project">
         <div class="container">
             <div class="col text-center">
-                <h2>Project</h2>
+                <h2 id="title">Project</h2>
             </div>
             <div class="row text-center mb-2">
                 <div class="card mb-3 mt-5">
                     <div class="col">
                         <h2 class="mt-4 text-capitalize">data penjualan ayam per bagian</h2>
                     </div>
-                    <img src="img/Grafik/Penjualan_ayam.png" class="card-img-top mx-auto d-block"
+                    <img src="/img/Grafik/Penjualan_ayam.png" class="card-img-top mx-auto d-block"
                         style="max-width: 70%;" alt="Grafik Data Penjualan Ayam">
                     <div class="card-body">
                         <h5 class="card-title">Grafik Penjualan ayam per bagian </h5>
@@ -147,7 +151,7 @@
                             disekolah
                             dasar</h2>
                     </div>
-                    <img src="img/Grafik/Grafik_Tinggi_Badan.jpeg" class="card-img-top mx-auto d-block"
+                    <img src="/img/Grafik/Grafik_Tinggi_Badan.jpeg" class="card-img-top mx-auto d-block"
                         style="max-width: 70%;" alt="Grafik Tinggi Badan">
                     <div class="card-body">
                         <h5 class="card-title">Grafik Perbandingan Tinggi Badan Laki-laki dan Perempuan</h5>
@@ -177,18 +181,18 @@
         <div class="container" id="certificate">
             <div class="row text-center mb-5">
                 <div class="col">
-                    <h2>Sertifikasi</h2>
+                    <h2 id="title">Sertifikasi</h2>
                 </div>
             </div>
             <div class="row text-center mb-4 mt-5">
                 <div class="col">
-                    <h2>Sertifikat Dicoding</h2>
+                    <h2 id="title">Sertifikat Dicoding</h2>
                 </div>
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-3 mb-3">
                     <div class="card">
-                        <img src="img/Sertifikasi Dicoding/sertifikat-python.jpg" class="card-img-top"
+                        <img src="/img/Sertifikasi Dicoding/sertifikat-python.jpg" class="card-img-top"
                             alt="sertifikat-python">
                         <div class="card-body">
                             <p class="card-text">Sertifikasi pelatihan yang membahas pemrograman dasar dengan
@@ -199,7 +203,7 @@
                 </div>
                 <div class="col-md-3 mb-3">
                     <div class="card">
-                        <img src="img/Sertifikasi Dicoding/sertifikat-github.jpg" class="card-img-top"
+                        <img src="/img/Sertifikasi Dicoding/sertifikat-github.jpg" class="card-img-top"
                             alt="sertifikat-github">
                         <div class="card-body">
                             <p class="card-text">Sertifikasi pelatihan yang membahas pengenalan dan penggunaan
@@ -210,7 +214,7 @@
                 </div>
                 <div class="col-md-3 mb-3">
                     <div class="card">
-                        <img src="img/Sertifikasi Dicoding/sertifikat-sql.jpg" class="card-img-top"
+                        <img src="/img/Sertifikasi Dicoding/sertifikat-sql.jpg" class="card-img-top"
                             alt="sertifikat-sql">
                         <div class="card-body">
                             <p class="card-text">Sertifikasi pelatihan yang membahas dan mempelajari Dasar
@@ -221,7 +225,7 @@
                 </div>
                 <div class="col-md-3 mb-3">
                     <div class="card">
-                        <img src="img/Sertifikasi Dicoding/sertifikat-data-science.jpg" class="card-img-top"
+                        <img src="/img/Sertifikasi Dicoding/sertifikat-data-science.jpg" class="card-img-top"
                             alt="sertifikat-science">
                         <div class="card-body">
                             <p class="card-text">Sertifikasi pelatihan yang membahas terkait dengan Dasar Data
@@ -233,13 +237,13 @@
             </div>
             <div class="row text-center mb-4 mt-5">
                 <div class="col">
-                    <h2>Sertifikat Dari Sekolah</h2>
+                    <h2 id="title">Sertifikat Dari Sekolah</h2>
                 </div>
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-3 mb-3">
                     <div class="card">
-                        <img src="img/Sertifikasi dari Sekolah/Sertifikat_Workshop.jpg" class="card-img-top"
+                        <img src="/img/Sertifikasi dari Sekolah/Sertifikat_Workshop.jpg" class="card-img-top"
                             alt="Sertifikat_Workshop">
                         <div class="card-body">
                             <p class="card-text">Sertifikasi yang dilakukan dari pihak sekolah untuk membantu siswa
@@ -249,7 +253,7 @@
                 </div>
                 <div class="col-md-3 mb-3">
                     <div class="card">
-                        <img src="img/Sertifikasi dari Sekolah/Sertifikat_Webinar_Design_Thinking.jpg"
+                        <img src="/img/Sertifikasi dari Sekolah/Sertifikat_Webinar_Design_Thinking.jpg"
                             class="card-img-top" alt="Sertifikat_Webinar_Design_Thinking">
                         <div class="card-body">
                             <p class="card-text">Sertifikasi webinar yang dilakukan dari pihak sekolah untuk
@@ -262,7 +266,7 @@
                 </div>
                 <div class="col-md-3 mb-3">
                     <div class="card">
-                        <img src="img/Sertifikasi dari Sekolah/Sertifikat_Webinar_Pengembangan_Karir.jpg"
+                        <img src="/img/Sertifikasi dari Sekolah/Sertifikat_Webinar_Pengembangan_Karir.jpg"
                             class="card-img-top" alt="Sertifikat_Pengembangan_Karir">
                         <div class="card-body">
                             <p class="card-text">Sertifikasi yang dilakukan dari pihak sekolah untuk membantu siswa
@@ -272,7 +276,7 @@
                 </div>
                 <div class="col-md-3 mb-3">
                     <div class="card">
-                        <img src="img/Sertifikasi dari Sekolah/Sertifikat_Tes_Minat_Bakat.jpg" class="card-img-top"
+                        <img src="/img/Sertifikasi dari Sekolah/Sertifikat_Tes_Minat_Bakat.jpg" class="card-img-top"
                             alt="Sertifikat_Tes-Minat_Bakat">
                         <div class="card-body">
                             <p class="card-text">Sertifikasi tes minat bakat yang dilakukan dari pihak sekolah, yang
@@ -285,7 +289,7 @@
     </section>
 
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="#86B6F6" fill-opacity="1"
+        <path fill="#86B6F6" fill-opacity="1" id="wave-content"
             d="M0,256L34.3,261.3C68.6,267,137,277,206,245.3C274.3,213,343,139,411,117.3C480,96,549,128,617,160C685.7,192,754,224,823,213.3C891.4,203,960,149,1029,128C1097.1,107,1166,117,1234,149.3C1302.9,181,1371,235,1406,261.3L1440,288L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z">
         </path>
     </svg>
@@ -309,7 +313,6 @@
             </div>
         </div>
     </section>
-
     <!-- Sosial Media -->
 
     <!-- Content -->
@@ -353,9 +356,16 @@
             opacity: 0
         });
     </script>
+    <!-- Animation -->
+
+    <!-- Dark mode -->
+    <script src="script.js"></script>
+    <!-- Dark mode -->
+
+    <!-- AOS -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      AOS.init();
+        AOS.init();
     </script>
 
 </body>
