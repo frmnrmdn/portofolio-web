@@ -54,6 +54,73 @@ section {
     height: 100%;
 }
 
+#toggle-mode i {
+    color: #FFD700;
+    transition: color 0.2s ease;
+}
+
+#toggle-mode i:hover {
+    color: #fff700;
+}
+
+.bi-linkedin {
+    color: #0A66C2 !important;
+}
+
+.bi-instagram {
+    color: #E1306C !important;
+}
+
+.bi-linkedin:hover {
+    color: #004182 !important;
+}
+
+.bi-instagram:hover {
+    color: #C13584 !important;
+}
+
+/* Dark mode */
+body.dark-mode {
+    background-color: #021526;
+    color: #E2E2B6;
+}
+
+.dark-mode .navbar {
+    background-color: #121212 !important;
+}
+
+.dark-mode .card {
+    background-color: #021526;
+    color: #E2E2B6;
+}
+
+.dark-mode a,
+.dark-mode h1,
+.dark-mode p {
+    color: #E2E2B6 !important;
+}
+
+.dark-mode #title {
+    color: #021526;
+}
+
+.dark-mode #project,
+.dark-mode #certificate {
+    background-color: #6EACDA;
+}
+
+.dark-mode #wave-content {
+    fill: #6EACDA;
+}
+
+body,
+.card,
+.navbar,
+footer {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
 @media screen and (max-width: 768px) {
     .jumbotron h1 {
         font-size: 2rem;
@@ -67,7 +134,7 @@ section {
         overflow: hidden;
         padding-top: 14rem;
     }
-    
+
     .bottom-wave {
         padding-top: 200px;
     }
